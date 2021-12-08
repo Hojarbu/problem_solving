@@ -6,7 +6,7 @@ class Solution:
         for i, j in enumerate(nums):
             if j == 1:
                 if idx is None:
-                    idx = i+ 1
+                    idx = i + 1
 
                 elif idx + 1 == i + 1:
                     idx += 1
