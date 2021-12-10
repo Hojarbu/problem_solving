@@ -10,6 +10,7 @@ def middleNode(self, head: Optional[ListNode]) -> Optional[ListNode]:
         fast = fast.next.next
     return slow
 
+
 # version 2
 def middleNode(self, head: Optional[ListNode]) -> Optional[ListNode]:
     node = head
