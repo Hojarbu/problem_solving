@@ -22,7 +22,7 @@ def duplicateZeros(self, arr: List[int]) -> None:
         while i < len(arr):
             if arr[i] == 0:
                 arr.pop()
-                arr.insert(i,0)
+                arr.insert(i, 0)
                 i += 2
                 continue
             i += 1
