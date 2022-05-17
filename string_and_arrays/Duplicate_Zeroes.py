@@ -18,6 +18,8 @@ def duplicateZeros(self, arr: List[int]) -> None:
 
     # version 2 (Not my solution)
 
+
+
         i = 0
         while i < len(arr):
             if arr[i] == 0:
